@@ -7,10 +7,10 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 
 # 2. Return 'Edinburgh Park' from the array
  puts lines[1]
- puts lines.fetch(1)
  print lines
 # 3. How many ways can we return 'Princes Street' from the array?
  puts lines[4]
+ puts lines.fetch(4)
  print lines
 # 4. Work out the index position of 'Haymarket'
  puts lines.index("Haymarket")
@@ -36,7 +36,7 @@ my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
 # 1. How would you return the string `"One"`?
 puts my_hash[1]
 # 2. How would you return the string `"Two"`?
-puts my_hash:[:two]
+puts my_hash[:two]
 # 3. How would you return the number `2`?
 puts my_hash["two"]
 # 4. How would you add `{3 => "Three"}` to the hash?
